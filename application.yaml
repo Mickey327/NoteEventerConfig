@@ -5,6 +5,10 @@ sign:
   task:
     topic: sign-task-topic
 
+auth:
+  api:
+    url: http://localhost:8012
+
 spring:
   kafka:
     consumer:

@@ -1,0 +1,3 @@
+auth:
+  api:
+    url: http://auth_cont:8012

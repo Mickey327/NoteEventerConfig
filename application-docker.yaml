@@ -3,4 +3,4 @@ auth:
     url: http://auth_cont:8012
 spring:
   kafka:
-    bootstrap-servers: broker:9092
+    bootstrap-servers: http://broker:9092

@@ -1,6 +1,14 @@
 auth:
   api:
     url: http://auth_cont:8012
+
+opentracing:
+  jaeger:
+    udp-sender:
+      host: jaeger
+      port: 6831
+      log-spans: true
+
 spring:
   kafka:
     bootstrap-servers: http://broker:9092

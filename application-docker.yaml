@@ -2,6 +2,9 @@ auth:
   api:
     url: http://auth_cont:8012
 
+hibernate:
+  dialect: org.hibernate.dialect.PostgreSQLDialect
+
 spring:
   kafka:
     bootstrap-servers: http://broker:9092

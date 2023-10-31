@@ -1,0 +1,11 @@
+auth:
+  api:
+    url: http://auth-cont:8012
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  kafka:
+    bootstrap-servers: http://broker:9092

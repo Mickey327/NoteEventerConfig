@@ -1,6 +1,8 @@
 auth:
   api:
     url: http://auth-app:8012
+  expose:
+    url: actuator
 
 spring:
   jpa:

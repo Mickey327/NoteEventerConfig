@@ -5,6 +5,12 @@ sign:
   task:
     topic: sign-task-topic
 
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
 auth:
   api:
     url: http://localhost:8012

@@ -2,6 +2,9 @@ auth:
   api:
     url: http://auth-app:8012
 
+kafka:
+  enabled: true
+
 spring:
   jpa:
     properties:

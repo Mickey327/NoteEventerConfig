@@ -1,9 +1,9 @@
-sign:
-  groupId: sign-group
-  result:
-    topic: sign-result-topic
-  task:
-    topic: sign-task-topic
+note:
+  groupId: note-group
+  event:
+    topic: write-event-topic
+  write:
+    topic: write-topic
 
 management:
   endpoint:
@@ -23,7 +23,7 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
-        spring.json.trusted.packages: "ru.rockutor.sign"
+        spring.json.trusted.packages: "ru.noteEventer.sign"
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer

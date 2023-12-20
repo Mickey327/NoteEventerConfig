@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    password: eventer
+    url: "jdbc:postgresql://eventer-db:5432/eventer-db"
+    username: eventer
+    driver-class-name: org.postgresql.Driver

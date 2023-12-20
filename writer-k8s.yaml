@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    password: writer
+    url: "jdbc:postgresql://writer-db:5432/writer-db"
+    username: writer
+    driver-class-name: org.postgresql.Driver
